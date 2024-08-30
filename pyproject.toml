@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "beginner dev"
+version = "0.1.0"
+description = ""
+authors = ["Muhammad-Aqib-khan <raiaqibkhan545@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain-core = "^0.2.33"
+langchain-community = "^0.2.12"
+langchain-openai = "^0.1.22"
+langchain = "^0.2.14"
+python-dotenv = "^1.0.1"
+google-generativeai = "^0.7.2"
+langchain-google-genai = "^1.0.9"
+pypdf = "^4.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
